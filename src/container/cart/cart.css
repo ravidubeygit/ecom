@@ -1,0 +1,52 @@
+.summery{
+    margin-left: auto;
+    width: max-content;
+    display: flex;
+    margin-top: 10px;
+    border-bottom: 1px solid #eeeeee;
+
+}
+
+.summery .img{
+    width:200px;
+}
+
+.summery .img img{
+    width :40px;
+    height: 40px;
+}
+
+.summery .qty{
+    width:100px;
+}
+
+.summery .price{
+    width: 100px;
+}
+
+.summery-area{
+    padding:10px 20px;
+    box-shadow: 1px 1px 5px grey;
+    margin-bottom:  100px;
+    width: max-content;
+    margin-left: auto;
+    
+}
+
+@media screen and (max-width:760px){
+    .summery{
+        margin-right: auto;
+    }
+    .summery .img{
+        width:70px;
+    }
+
+    .summery .qty{
+        width:80px;
+    }
+    
+    .summery .price{
+        width: 80px;
+    }
+    
+}

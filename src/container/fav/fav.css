@@ -1,0 +1,14 @@
+.fav-container{
+    width: 98%;
+    max-width: 1400px;
+    min-height: calc(100vh - 70px);
+    height: max-content;
+    margin-top: 70px;
+    margin: auto;
+}
+
+.fav-product-area{
+    width: 98%;
+    max-width: 900px;
+    margin: auto;
+}

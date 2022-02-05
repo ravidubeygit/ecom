@@ -1,0 +1,50 @@
+.home-area{
+    min-height: 100vh;
+    width: 100%;
+    max-width: 1400px;
+    margin: auto;
+}
+
+.card-area{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.pagination{
+    width: max-content;
+    margin:50px auto;
+}
+
+.pagination button{
+    padding: 1em 1.5em;
+    margin: auto 1px;
+    border: none;
+}
+
+.active{
+    background: green;
+}
+
+.category-area{
+    position: fixed;
+    width: 300px;
+    top: 200px;
+    left: 0px;
+
+}
+.category-area .item{
+    background: aliceblue;
+    margin: 4px;
+    padding: 1em;
+    cursor: pointer;
+    
+}
+
+.category-area .item:hover{
+    background: aqua;
+}
+
+.category-area .item:active{
+    background: #eeee;
+}

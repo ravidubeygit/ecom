@@ -1,0 +1,7 @@
+.product-details-area{
+    width: 98%;
+    max-width: 1400px;
+    margin: auto;
+    min-height: calc(100vh - 80px);
+}
+

@@ -1,0 +1,92 @@
+.card{
+    height: 400px;
+    width: 25%;
+    margin:20px 1px;
+    background: #fff;
+    box-shadow: 1px 1px 5px grey;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.card-img{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-img img{
+   width: 45%;
+   height: 200px;
+}
+
+.bottomArea{
+    width: 90%;
+    margin: auto;
+}
+.title{
+    margin-top: 5px;
+    height: 60px;
+    font-size:18px;
+    font-weight: bold;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis
+}
+.fa-star{
+    color: gold;
+}
+
+.rating-area{
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.priceArea{
+    margin-top: 10px;
+    font-size: 22px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.price-and-btn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.button-area{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+.btn{
+    margin-left: 10px;
+    padding: 1em;
+    background:aliceblue;
+    border: none;
+
+}
+
+.title:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width:760px){
+    .card{
+        width: 90%;
+        margin-left: 5%;
+    }
+}
+
+@media screen and (min-width:760px) and (max-width:1100px){
+    .card{
+        width: 46%;
+        margin-left: 2%;
+    }
+}
